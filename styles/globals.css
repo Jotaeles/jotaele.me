@@ -1,7 +1,10 @@
+/* purgecss start ignore */
 @tailwind base;
 @tailwind components;
+/* purgecss end ignore */
 @tailwind utilities;
 
+/* purgecss start ignore */
 @font-face {
   font-family: 'Circular';
   src: url('/fonts/CircularStd-Book.eot');
