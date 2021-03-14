@@ -1,10 +1,13 @@
+/* eslint import/no-extraneous-dependencies: ["error", {"peerDependencies": true}] */
+const { fontFamily } = require('tailwindcss/defaultTheme');
+
 module.exports = {
   purge: ['./pages/**/*.js', './components/**/*.js'],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Circular'],
+        sans: ['Circular', ...fontFamily.sans],
       },
     },
     colors: {
