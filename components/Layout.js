@@ -5,7 +5,7 @@ const Layout = ({ children, ...customMeta }) => {
   const meta = {
     title: 'Luis Sandoval - Frontend Developer.',
     description: 'Luis Sandoval - Frontend Developer at Grupo W.',
-    image: 'http://jotaele.me/meta-image.png',
+    image: 'https://jotaele.me/meta-image.png',
     type: 'website',
     ...customMeta,
   };
@@ -18,8 +18,11 @@ const Layout = ({ children, ...customMeta }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="robots" content="follow, index" />
         <meta content={meta.description} name="description" />
-        <meta property="og:url" content={`http://jotaele.me${router.asPath}`} />
-        <link rel="canonical" href={`http://jotaele.me${router.asPath}`} />
+        <meta
+          property="og:url"
+          content={`https://jotaele.me${router.asPath}`}
+        />
+        <link rel="canonical" href={`https://jotaele.me${router.asPath}`} />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Luis Sandoval" />
         <meta property="og:description" content={meta.description} />
