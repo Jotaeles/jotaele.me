@@ -1,7 +1,8 @@
 import Head from 'next/head';
 import { useRouter } from 'next/router';
+import Footer from '../modules/Footer';
 
-const Layout = ({ children, ...customMeta }) => {
+const MainLayout = ({ children, ...customMeta }) => {
   const meta = {
     title: 'Luis Sandoval - Frontend Developer.',
     description: 'Luis Sandoval - Frontend Developer at Grupo W.',
@@ -35,8 +36,9 @@ const Layout = ({ children, ...customMeta }) => {
         <meta name="twitter:image" content={meta.image} />
       </Head>
       <main>{children}</main>
+      <Footer />
     </>
   );
 };
 
-export default Layout;
+export default MainLayout;
