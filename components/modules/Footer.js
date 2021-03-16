@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer>
-      <div className="text-sm text-center p-8 text-white">
+      <div className="text-sm text-center p-8 text-primary dark:text-gray-300">
         Made with{' '}
         <span className="text-secondary" role="img" aria-label="Love">
           ♥

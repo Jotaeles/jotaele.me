@@ -3,16 +3,16 @@ const { fontFamily } = require('tailwindcss/defaultTheme');
 
 module.exports = {
   purge: ['./pages/**/*.js', './components/**/*.js'],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'class',
   theme: {
     extend: {
+      colors: {
+        primary: '#222f3e',
+        secondary: '#0652dd',
+      },
       fontFamily: {
         sans: ['Circular', ...fontFamily.sans],
       },
-    },
-    colors: {
-      primary: '#222f3e',
-      secondary: '#0652dd',
     },
   },
   variants: {

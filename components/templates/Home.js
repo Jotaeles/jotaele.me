@@ -7,7 +7,7 @@ export default function Home() {
         <h1>
           <img className="h-14" src="/jotaele-logo.svg" alt="Jotaele Logo" />
         </h1>
-        <h2 className="font-bold uppercase text-xs tracking-widest text-primary">
+        <h2 className="font-bold uppercase text-xs tracking-widest text-primary dark:text-gray-300">
           Frontend Developer
         </h2>
         <div className="flex justify-between items-center mt-4">
@@ -18,7 +18,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <svg
-              className="h-6 w-6 mx-2 fill-current text-primary hover:text-secondary"
+              className="h-6 w-6 mx-2 fill-current text-primary hover:text-secondary dark:text-gray-300 dark:hover:text-secondary"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -32,7 +32,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <svg
-              className="h-6 w-6 mx-2 fill-current text-primary hover:text-secondary"
+              className="h-6 w-6 mx-2 fill-current text-primary hover:text-secondary dark:text-gray-300 dark:hover:text-secondary"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -46,7 +46,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <svg
-              className="h-6 w-6 mx-2 fill-current text-primary hover:text-secondary"
+              className="h-6 w-6 mx-2 fill-current text-primary hover:text-secondary dark:text-gray-300 dark:hover:text-secondary"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
