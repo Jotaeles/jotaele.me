@@ -29,8 +29,8 @@
   font-display: swap;
 }
 
-.sticky-nav {
-  position: sticky;
+.fixed-nav {
+  position: fixed;
   z-index: 10;
   top: 0;
   backdrop-filter: saturate(180%) blur(20px);
